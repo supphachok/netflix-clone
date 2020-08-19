@@ -42,7 +42,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
 
   return (
     <div className="row">
-      <h2>{title}</h2>
+      <h2 style={{ color: '#ffffff' }}>{title}</h2>
 
       <div className="row__posters">
         {movies.map((movie) => (
